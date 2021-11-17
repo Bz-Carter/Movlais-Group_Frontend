@@ -1,13 +1,734 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>AppWeb</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Qbix - Responsive Multi-Purpose HTML Site Template</title>
+
+	<!--pageMeta-->
+	
+    
+	<!-- LIB CSS -->
+	<link href="assets/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="assets/lib/owl-carousel/owl.css" rel="stylesheet">
+    <link href="assets/lib/Swiper/css/swiper.min.css" rel="stylesheet">
+    <link href="assets/lib/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/vegas/vegas.min.css" rel="stylesheet">
+    <link href="assets/lib/Magnific-Popup/magnific-popup.css" rel="stylesheet">
+    <link href="assets/lib/sweetalert/sweetalert2.min.css" rel="stylesheet">
+    <link href="assets/lib/materialize-parallax/materialize-parallax.css" rel="stylesheet">
+
+	<!-- ICON FONTS -->
+    <link href="assets/fonts/fontawesome/fontawesome-all.min.css" rel="stylesheet">
+    <link href="assets/fonts/pixeden/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="assets/fonts/et-line/et-line-font.css" rel="stylesheet">
+    <link href="assets/fonts/material-webfont/css/materialdesignicons.min.css" rel="stylesheet">
+
+    <!-- TEMPLATE CSS -->
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/ckav-grids.css" rel="stylesheet">
+    <link href="assets/css/helper.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- THEME COLOR CSS -->
+    <link href="assets/css/themes/theme-02.css" rel="stylesheet">
+    <link href="assets/css/template-custom.css" rel="stylesheet">
+
+	<!-- FAVICONS -->
+	<link rel="icon" href="assets/images/favicons/favicon.ico">
+	<link rel="apple-touch-icon" href="assets/images/favicons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+	<!--[if IE 9 ]><script src="assets/js/ie-matchmedia.js"></script><![endif]-->
+
 </head>
+
+
 <body>
-  <app-root></app-root>
+
+<div class="page-loader"><b class="spinner"></b></div>
+<!--
+************************************************************
+* MAIN WRAPPER #PAGE
+************************************************************ -->
+<div id="page" data-linkscroll='y'>
+
+	<!--
+	************************************************************
+	* HEADER
+	************************************************************ -->
+	<header class="main-head dark bg-glass-dark-02" data-sticky="y">
+		<div class="container-fluid bdr-b bdr-op-light-1 min-px-h80">
+			<div class="row gt0 align-items-center head-row">
+
+				<!--=================================
+				= NAVIGATION LINKS
+				==================================-->
+				<div class="col-lg-5 align-r m-content">
+					<ul class="row gt20 justify-content-md-start mr-0 align-items-center">
+						<li class="col-lg-auto">
+							<nav class="menu-wrp align-l f-2 bold-4">
+								<ul class="menu">
+									<li class="menu-item"><a href="#home">Home</a></li>
+									<li class="menu-item"><a href="#features08">About</a></li>
+									<li class="menu-item"><a href="#testimonials07">Testimonials</a></li>
+									<li class="menu-item"><a class="set-popup" href="#popup-content">Contact</a></li>
+								</ul>
+							</nav>
+						</li>
+					</ul>
+
+				</div><!-- ======= END : NAVIGATION LINKS =======  -->
+				
+				<!--=================================
+				= LOGO SECTION
+				==================================-->
+				<div class="col-lg-2 pos-rel align-c">
+					<a class="nav-handle" data-nav=".m-content" data-navopen="pe-7s-more" data-navclose="pe-7s-close"><i class="pe-7s-more"></i></a>
+					<div class="header-logo-wrp">
+						<a class="header-logo pd-tb-small" href="http://ckavart.com/"><img src="assets/images/logo-light.png" alt="Brand logo"></a>
+					</div>
+				</div><!-- ======= END : LOGO SECTION =======  -->
+
+				<!--=================================
+				= EXTRA LINKS
+				==================================-->
+				<div class="col-lg-5 align-r m-content">
+					<ul class="row gt20 justify-content-md-end mr-0 align-items-center">
+						<li class="col-lg-auto" data-ckav-sm="pd-0 pd-t-10 align-c">
+							<a href="page-register-01.html" class="btn small bdr-op-light-2 btn-white f-2 bold-4">Sign in</a>
+							<a href="page-register-01.html" class="btn btn-white small solid mr-l-10 f-2 bold-4">Sign up</a>
+						</li>
+					</ul>
+
+				</div><!-- ======= END : NAVIGATION LINKS =======  -->	
+
+			</div>
+		</div>
+	</header><!-- ************** END : HEADER **************  -->
+	
+	<!--
+	************************************************************
+	* INTRO SECTION 10
+	************************************************************ -->
+	<section id="home" class="pos-rel pd-tb-large pd-b-0 min-vh-h100 overflow-none typo-light" data-ckav-sm="pd-tb-medium align-c">
+		<!--=================================
+		= CONTENT AREA
+		==================================-->
+		<div class="container align-c">
+			
+			<div class="row gt100 middle-md">
+				
+				<!--=================================
+				= TEXT
+				==================================-->	
+				<div class="col-md-6 typo-light align-l" data-ckav-sm="align-c">
+					<h2 class="title large f-1 mr-b-30" data-ckav-sm="medium" data-ckav-md="large mr-tb-30" data-animate-in="fadeInUp">Bienvenue au GROUPE M'VOLAIS</h2>
+					<hr class="light px-w100" data-ckav-sm="mr-auto" data-animate-in="fadeIn|0.1">
+					<p class="title-sub f-2 small" data-animate-in="fadeInUp|0.2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+				</div>
+				<!-- ======= END :  =======  -->
+				
+				<!--=================================
+				= FORM
+				==================================-->
+				<div class="col-md-6" data-animate-in="fadeInRight">
+					
+					<div class="subscribe-block" data-animate-in="fadeInUp|0.2">
+						<form action="form-data/notify-me.php" class="form-widget" novalidate="novalidate">
+							<div class="form-group">
+								<button type="submit" data-loading-text="Un instant s'il vous plaît.." class="btn btn-primary hov-btn-dark solid f-2 txt-upper bold-4 rd-50" data-ckav-sm="fs16">Recherche</button>
+								<input class="form-control bg-white bdr-white rd-50 fs18" data-label="Rechercher" data-msg="Veuillez entre un mot clé s'il vous plaît." type="text" name="email" placeholder="Rechercher un produit">
+							</div>
+						</form>
+					</div>
+				</div>
+				<!-- ======= END : FORM =======  -->
+
+			</div>
+
+		</div>
+		<!-- ======= END : CONTENT AREA =======  -->
+		
+		<!--=================================
+		= BACKGROUND HOLDER
+		==================================-->
+		<div class="bg-holder full-wh z1">
+			
+			<!-- OVERLAY -->
+			<b data-bgholder="overlay" class="full-wh z3" data-rgradient="y" data-rg-colors="rgba(0, 74, 0, 0.2)|rgba(0, 74, 0, 1)"></b>
+			
+			<!-- PARALLAX IMAGE -->
+			<div class="jarallax full-wh bg-cover bg-cc z2" data-jparallax="y" data-speed="0.2" data-bgslider="assets/images/bg-corporate-01.jpg|assets/images/bg-corporate-01.jpg|assets/images/bg-corporate-03.jpg"></div>
+			
+			<!-- BACKGROUND IMAGE -->
+			<b data-bgholder="bg-img" class="full-wh bg-cover bg-cc z1"></b>
+		</div>
+		<!-- ======= END : BACKGROUND HOLDER =======  -->
+
+	</section>
+	<!-- ************** END : INTRO SECTION 10 **************  -->
+
+	<!--
+	************************************************************
+	* CONTENT SECTION 21
+	************************************************************ -->
+	<section id="content21" class="pos-rel pd-tb-medium" data-ckav-sm="pd-tb-medium align-c">
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-md-6">
+					
+					<!--=================================
+					= TEXT
+					==================================-->
+					<div class="text mr-t-100 mr-b-60" data-ckav-sm="mr-b-30 mr-t-0" data-ckav-md="align-l">
+						<h2 class="title large f-1 bold-5 mr-b-30" data-ckav-sm="medium mr-b-20" data-animate-in="fadeInUp">Our core value</h2>
+						<p class="title-sub f-2 bold-n mini lh-8" data-ckav-sm="fs16" data-animate-in="fadeInUp|0.1">
+							<span class="op-07">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod sollicitudin ante. Nulla facilisi. Fusce accumsan, erat quis fermentum feugiat, ex arcu tempus lacus, sed rhoncus ipsum arcu a quam. Nunc quis nulla nec justo dapibus laoreet.
+							</span>
+						</p>
+					</div>
+					<!-- ======= END : TEXT =======  -->
+
+					<!--=================================
+					= LIST
+					==================================-->
+					<div class="row" data-ckav-sm="align-l">
+						<div class="col-md-6 col-6">
+							<ul class="list-2 txt-dark f-2 bold-5">
+								<li data-animate-in="fadeInUp|0.2"><i class="mdi mdi-trending-neutral lh-1 txt-default"></i> UI Design</li>
+								<li data-animate-in="fadeInUp|0.3"><i class="mdi mdi-trending-neutral lh-1 txt-default"></i> Web Development</li>
+								<li data-animate-in="fadeInUp|0.4"><i class="mdi mdi-trending-neutral lh-1 txt-default"></i> Graphic Design</li>
+							</ul>	
+						</div>
+
+						<div class="col-md-6 col-6">
+							<ul class="list-2 txt-dark f-2 bold-5">
+								<li data-animate-in="fadeInUp|0.2"><i class="mdi mdi-trending-neutral lh-1 txt-default"></i> Animation</li>
+								<li data-animate-in="fadeInUp|0.3"><i class="mdi mdi-trending-neutral lh-1 txt-default"></i> Web Services</li>
+								<li data-animate-in="fadeInUp|0.4"><i class="mdi mdi-trending-neutral lh-1 txt-default"></i> Marketing</li>
+							</ul>	
+						</div>
+
+					</div>
+					<!-- ======= END : LIST =======  -->
+
+				</div>
+
+				<div class="col-md-6">
+					
+				</div>
+			</div>
+
+		</div>
+
+		<!--=================================
+		= BACKGROUND HOLDER
+		==================================-->
+		<div class="bg-holder full-wh z1">
+			
+			<!-- OVERLAY -->
+			<b data-bgholder="overlay" class="full-wh z3" data-rgradient="y" data-rg-colors="rgba(239, 134, 83, 0.0)|rgba(78, 164, 154, 0.0)"></b>
+			
+			<!-- PARALLAX IMAGE -->
+			<div class="jarallax full-wh bg-cover bg-cc z2" data-jparallax="n" data-speed="0.2"></div>
+			
+			<!-- BACKGROUND IMAGE -->
+			<b data-bgholder="bg-img" class="full-wh bg-cover bg-cc z1" data-bg="assets/images/bg-agency-02.jpg"></b>
+		</div>
+		<!-- ======= END : BACKGROUND HOLDER =======  -->
+
+	</section>
+	<!-- ************** END : CONTENT SECTION 21 **************  -->
+
+	<!--
+	************************************************************
+	* FEATURES SECTION 08
+	************************************************************ -->
+	<section id="features08" class="pos-rel pd-tb-medium bg-white" data-ckav-sm="pd-tb-medium">
+		<div class="container" data-ckav-sm="mr-0 align-c" data-ckav-md="mr-auto">
+
+			<!--=================================
+			= TEXT
+			==================================-->
+			<div class="row mr-b-60" data-ckav-sm="mr-b-30" data-animate-in="fadeIn">
+				
+				<div class="col-lg-4">
+					<h2 class="title large f-1 bold-5 mr-b-30" data-ckav-sm="medium">CkavArt Services Hub</h2>
+				</div>
+
+				<div class="col-lg-6 offset-lg-2">
+					<p class="f-2 bold-n fs16 lh-8">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod sollicitudin ante. Nulla facilisi. Fusce accumsan, erat quis fermentum feugiat, ex arcu tempus lacus, s	ed rhoncus ipsum arcu a quam. Nunc quis nulla nec justo dapibus laoreet.
+					</p>
+				</div>
+
+			</div>
+			<!-- ======= END : TEXT =======  -->
+			
+			<!--=================================
+			= INFO BOXES
+			==================================-->
+			<div class="row gt0" data-ckav-sm="mr-0">
+				
+				<div class="col-lg-3 col-md-6" data-animate-in="fadeInUp|0.1">
+					<a href="#" class="op1 info-obj img-t g30 small align-l pd-small rd-10 hov-shadow-xlarge hov-bg-white hov-bdr-default bdr-b-5 bdr-b-glass" data-ckav-sm="align-c pd-10">
+						<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-comment"></i></span></div>
+						<div class="info">
+							<h3 class="title tiny f-2 bold-5">Live Chat</h3>
+							<p class="f-2">Lorem ipsum dolor sit ametconsetetur sadipscing elitr, sed diam nonumy eirmod</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6" data-animate-in="fadeInUp|0.2">
+					<a href="#" class="op1 info-obj img-t g30 small align-l pd-small rd-10 hov-shadow-xlarge hov-bg-white hov-bdr-default bdr-b-5 bdr-b-glass" data-ckav-sm="align-c pd-10">
+						<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-mail-open-file"></i></span></div>
+						<div class="info">
+							<h3 class="title tiny f-2 bold-5">Email Marketing</h3>
+							<p class="f-2">Lorem ipsum dolor sit ametconsetetur sadipscing elitr, sed diam nonumy eirmod</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6" data-animate-in="fadeInUp|0.3">
+					<a href="#" class="op1 info-obj img-t g30 small align-l pd-small rd-10 hov-shadow-xlarge hov-bg-white hov-bdr-default bdr-b-5 bdr-b-glass" data-ckav-sm="align-c pd-10">
+						<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-display1"></i></span></div>
+						<div class="info">
+							<h3 class="title tiny f-2 bold-5">User Analytic</h3>
+							<p class="f-2">Lorem ipsum dolor sit ametconsetetur sadipscing elitr, sed diam nonumy eirmod</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-3 col-md-6" data-animate-in="fadeInUp|0.4">
+					<a href="#" class="op1 info-obj img-t g30 small align-l pd-small rd-10 hov-shadow-xlarge hov-bg-white hov-bdr-default bdr-b-5 bdr-b-glass" data-ckav-sm="align-c pd-10">
+						<div class="img txt-default"><span class="iconwrp"><i class="pe-7s-signal"></i></span></div>
+						<div class="info">
+							<h3 class="title tiny f-2 bold-5">Marketing Automation</h3>
+							<p class="f-2">Lorem ipsum dolor sit ametconsetetur sadipscing elitr, sed diam nonumy eirmod</p>
+						</div>
+					</a>
+				</div>
+
+
+			</div>
+			<!-- ======= END : INFO BOXES =======  -->
+
+		</div>
+
+		<!--=================================
+		= BACKGROUND HOLDER
+		==================================-->
+		<div class="bg-holder full-wh z1">
+			
+			<!-- OVERLAY -->
+			<b data-bgholder="overlay" class="full-wh z3" data-rgradient="y" data-rg-colors="rgba(239, 134, 83, 0.0)|rgba(78, 164, 154, 0.0)"></b>
+			
+			<!-- PARALLAX IMAGE -->
+			<div class="jarallax full-wh bg-cover bg-cc z2" data-jparallax="n" data-speed="0.2"></div>
+			
+			<!-- BACKGROUND IMAGE -->
+			<b data-bgholder="bg-img" class="full-wh bg-cover bg-cc z1" data-bg="assets/images/pattern-03.png"></b>
+		</div>
+		<!-- ======= END : BACKGROUND HOLDER =======  -->
+
+	</section>
+	<!-- ************** END : FEATURES SECTION 08 **************  -->
+
+	<!--
+	************************************************************
+	* CONTENT SECTION 22
+	************************************************************ -->
+	<section id="content22" class="pos-rel pd-tb-large bg-white" data-ckav-sm="pd-tb-medium align-c">
+		<div class="container">
+			
+			<div class="row gt80 align-items-center">
+				<div class="col-md-7">
+					
+					<!--=================================
+					= TEXT
+					==================================-->
+					<div class="text" data-ckav-sm="mr-b-30">	
+						<h2 class="title large f-1 bold-5 mr-b-30" data-ckav-sm="medium" data-animate-in="fadeInUp">Email Notification</h2>
+									
+						<p class="f-2 bold-n fs16 lh-8" data-animate-in="fadeInUp|0.1">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod sollicitudin ante. Nulla facilisi. Fusce accumsan, erat quis fermentum feugiat, ex arcu tempus lacus, sed rhoncus ipsum arcu a quam.
+						</p>
+
+						<p class="f-2 bold-n fs16 lh-8 mr-b-60" data-ckav-sm="mr-b-30" data-animate-in="fadeInUp|0.2">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod sollicitudin ante. Nulla facilisi. Fusce accumsan, erat quis fermentum feugiat, ex arcu tempus lacus, sed rhoncus ipsum arcu a quam.
+						</p>
+						
+						<a href="http://ckavart.com/" class="btn btn-default solid f-2 txt-upper" data-animate-in="fadeInUp|0.3">Learn More</a>
+					</div>
+					<!-- ======= END : TEXT =======  -->
+
+				</div>
+
+				<div class="col-md-5 hidden" data-animate-in="fadeInRight">
+					<img src="assets/images/agency-watch-01.png" alt="watch">
+				</div>
+			</div>
+
+		</div>
+
+		<!--=================================
+		= BACKGROUND HOLDER
+		==================================-->
+		<div class="bg-holder full-wh z1">
+			
+			<!-- OVERLAY -->
+			<b data-bgholder="overlay" class="full-wh z3" data-rgradient="y" data-rg-colors="rgba(239, 134, 83, 0.0)|rgba(78, 164, 154, 0.0)"></b>
+			
+			<!-- PARALLAX IMAGE -->
+			<div class="jarallax full-wh bg-cover bg-cc z2" data-jparallax="y" data-speed="0.2" data-bg="assets/images/agency-watch-01.png"></div>
+			
+			<!-- BACKGROUND IMAGE -->
+			<b data-bgholder="bg-img" class="full-wh bg-cover bg-cc z1" data-bg="assets/images/pattern-04.png"></b>
+		</div>
+		<!-- ======= END : BACKGROUND HOLDER =======  -->
+
+	</section>
+	<!-- ************** END : CONTENT SECTION 22 **************  -->
+
+	<!--
+	************************************************************
+	* OTHER 05
+	************************************************************ -->
+	<section class="pos-rel pd-tb-medium min-vh-h50 typo-light flex-cc" data-ckav-sm="pd-tb-medium align-c">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+	
+				</div>
+	
+				<div class="col-md-5">
+					<img src="assets/images/icon-check.png" alt="icon" class="mr-b-tiny max-px-w150" data-ckav-sm="mr-auto" data-animate-in="fadeInUp">
+					<div class="text mr-b-60" data-ckav-sm="mr-b-30">
+						<h2 class="title large f-1 bold-5 mr-b-30" data-ckav-sm="medium mr-b-20" data-animate-in="fadeInUp">Work On Time</h2>
+						<p class="title-sub f-2 bold-n mini lh-8" data-ckav-sm="fs16" data-animate-in="fadeInUp|0.1">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod sollicitudin ante. Nulla facilisi. Fusce accumsan
+						</p>
+					</div>
+	
+					<a href="http://ckavart.com/" target="_blank" class="btn btn-default solid txt-upper" data-animate-in="fadeInUp|0.2">Let's Work Together</a>
+				</div>
+	
+			</div>
+		</div>
+
+		<!--=================================
+		= BACKGROUND HOLDER
+		==================================-->
+		<div class="bg-holder full-wh z1">
+			
+			<!-- OVERLAY -->
+			<b data-bgholder="overlay" class="full-wh z3" data-rgradient="y" data-rg-colors="rgba(0, 0, 0, 0)|rgba(0, 0, 0, 0.3)"></b>
+			
+			<!-- PARALLAX IMAGE -->
+			<div class="jarallax full-wh bg-cover bg-cc z2" data-jparallax="y" data-speed="0.2" data-bg="assets/images/bg-agency-03.jpg"></div>
+			
+			<!-- BACKGROUND IMAGE -->
+			<b data-bgholder="bg-img" class="full-wh bg-cover bg-cc z1"></b>
+		</div>
+		<!-- ======= END : BACKGROUND HOLDER =======  -->
+
+	</section>
+	<!-- ************** END : OTHER 05 **************  -->
+
+	<!--
+	************************************************************
+	* TESTIMONIALS 07
+	************************************************************ -->
+	<section id="testimonials07" class="pos-rel pd-tb-medium bg-gray" data-ckav-sm="pd-tb-medium align-c">
+		<div class="container align-c">
+			
+			<!--=================================
+			= TEXT
+			==================================-->
+			<div class="text mr-b-60 align-c w60 mr-auto" data-ckav-sm="mr-b-30">
+				<span class="before-title f-2 mr-b-20 bold-5 fs16 txt-upper txt-default" data-ckav-sm="mr-b-20" data-animate-in="fadeInUp">Testimonials</span>
+				<h2 class="title large f-1 bold-5 mr-b-30" data-ckav-sm="medium mr-b-20" data-animate-in="fadeInUp">Our Clients Story</h2>
+				<p class="title-sub f-2 bold-n mini lh-8" data-ckav-sm="fs16" data-animate-in="fadeInUp|0.1">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod sollicitudin ante. Nulla facilisi. Fusce accumsan, erat quis fermentum feugiat.
+				</p>
+			</div>
+			<!-- ======= END : TEXT =======  -->
+
+			<!--=================================
+			= TESTIMONIALS TEXT
+			==================================-->
+			<div class="row gt20">
+				<div class="col-lg-3 col-md-6" data-animate-in="fadeInUp|0.2">
+					<div class="info-obj img-t g20 small align-l pd-30 bg-white rd-10 mr-t-80 shadow-xlarge">
+						<div class="img -mr-t-60 shadow-small rd" data-ckav-sm="mr-l-0"><img src="assets/images/person-01.jpg" class="rd" alt="image"></div>
+						<div class="info">
+							<h3 class="title tiny f-2 mr-0">Oupsum dolor</h3>
+							<em class="fs12 f-2">Creative Director</em>
+							<h2 class="title bold-n small mr-auto txt-default with-sep-r mr-b-6">
+								<span><i class="mdi mdi-format-quote-open"></i></span>
+							</h2>
+							<p class="fs14 f-2 mr-b-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6" data-animate-in="fadeInUp|0.3">
+					<div class="info-obj img-t g20 small align-l pd-30 bg-white rd-10 mr-t-80 shadow-xlarge">
+						<div class="img -mr-t-60 shadow-small rd" data-ckav-sm="mr-l-0"><img src="assets/images/person-02.jpg" class="rd" alt="image"></div>
+						<div class="info">
+							<h3 class="title tiny f-2 mr-0">Aupsum Alor</h3>
+							<em class="fs12 f-2">Management</em>
+							<h2 class="title bold-n small mr-auto txt-default with-sep-r mr-b-6">
+								<span><i class="mdi mdi-format-quote-open"></i></span>
+							</h2>
+							<p class="fs14 f-2 mr-b-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-3 col-md-6" data-animate-in="fadeInUp|0.4">
+					<div class="info-obj img-t g20 small align-l pd-30 bg-white rd-10 mr-t-80 shadow-xlarge">
+						<div class="img -mr-t-60 shadow-small rd" data-ckav-sm="mr-l-0"><img src="assets/images/person-03.jpg" class="rd" alt="image"></div>
+						<div class="info">
+							<h3 class="title tiny f-2 mr-0">Tuga Bolor</h3>
+							<em class="fs12 f-2">Developer</em>
+							<h2 class="title bold-n small mr-auto txt-default with-sep-r mr-b-6">
+								<span><i class="mdi mdi-format-quote-open"></i></span>
+							</h2>
+							<p class="fs14 f-2 mr-b-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6" data-animate-in="fadeInUp|0.5">
+					<div class="info-obj img-t g20 small align-l pd-30 bg-white rd-10 mr-t-80 shadow-xlarge">
+						<div class="img -mr-t-60 shadow-small rd" data-ckav-sm="mr-l-0"><img src="assets/images/person-04.jpg" class="rd" alt="image"></div>
+						<div class="info">
+							<h3 class="title tiny f-2 mr-0">Dolor Oupsum </h3>
+							<em class="fs12 f-2">Designer</em>
+							<h2 class="title bold-n small mr-auto txt-default with-sep-r mr-b-6">
+								<span><i class="mdi mdi-format-quote-open"></i></span>
+							</h2>
+							<p class="fs14 f-2 mr-b-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ======= END : TESTIMONIALS TEXT =======  -->
+
+		</div>
+
+		<div class="container">
+			<!--=================================
+			= LOGO
+			==================================-->
+			<div class="mr-t-100" data-ckav-sm="mr-t-30">
+				<ul class="inline-list size-small gt-large reset op-07">
+					<li data-animate-in="fadeInUp|0.1"><img src="assets/images/brand-logo1.png" alt="brand"></li>
+					<li data-animate-in="fadeInUp|0.2"><img src="assets/images/brand-logo2.png" alt="brand"></li>
+					<li data-animate-in="fadeInUp|0.3"><img src="assets/images/brand-logo3.png" alt="brand"></li>
+					<li data-animate-in="fadeInUp|0.3"><img src="assets/images/brand-logo4.png" alt="brand"></li>
+					<li data-animate-in="fadeInUp|0.2"><img src="assets/images/brand-logo5.png" alt="brand"></li>
+				</ul>
+			</div>
+			<!-- ======= END : LOGO =======  -->
+		</div>
+
+		<!--=================================
+		= BACKGROUND HOLDER
+		==================================-->
+		<div class="bg-holder full-wh z1">
+			
+			<!-- OVERLAY -->
+			<b data-bgholder="overlay" class="full-wh z3" data-gradient="y" data-g-colors="rgba(255, 255, 255, 0.0)|rgba(255, 255, 255, 0.6)"></b>
+			
+			<!-- PARALLAX IMAGE -->
+			<div class="jarallax full-wh bg-cover bg-cc z2" data-jparallax="n" data-speed="0.2"></div>
+			
+			<!-- BACKGROUND IMAGE -->
+			<b data-bgholder="bg-img" class="full-wh bg-cover bg-cc z1" data-bg="assets/images/pattern-05.png"></b>
+		</div>
+		<!-- ======= END : BACKGROUND HOLDER =======  -->
+
+	</section>
+	<!-- ************** END : TESTIMONIALS 07 **************  -->
+
+	<!--
+	************************************************************
+	* FOOTER SECTION 10
+	************************************************************ -->
+	<footer class="pd-tb-small pos-rel bg-gray" data-ckav-sm="pd-tb-small align-c">
+		<div class="container pos-rel z1">
+			
+			<!--=================================
+			= SUBSCRIBE FORM
+			==================================-->
+			<form action="form-data/notify-me.php" class="form-widget mr-b-60 animated fadeInUp full-visible" data-ckav-sm="mr-0 mr-b-30" data-formtype="newsletter" novalidate="novalidate">
+				<div class="field-wrp">
+					<div class="row gt30">
+						<div class="col-md-4">
+							<div class="form-group">
+								<input class="form-control bb bdr-b-1 w100" data-label="Name" required="" data-msg="Please enter name." type="text" name="name" placeholder="Enter your name" aria-required="true">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<input class="form-control bb w100" data-label="Email" data-msg="Please enter email." type="email" name="email" placeholder="Enter your email">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<button type="submit" data-loading-text="Pleae wait.." class="btn solid btn-dark bdr-1 block btn-reset bold-n txt-upper f-2" style="height: 46px;"> Subscribe</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+			<!-- ======= END : SUBSCRIBE FORM =======  -->
+		
+			<div class="row gt30 mb20">
+				<div class="col-lg-3 col-md-6">
+					<h3 class="title mini f-1 bold-n">Nous Contactez</h3>
+					<p class="mr-b-4 txt-dark bold-n"><a href="mailto:info@groupemvolais.com"><span class="mdi mdi-email txt-default mr-r-4"></span> info@groupemvolais.com</a></p>
+					<p class="txt-dark bold-n">
+						<a><span class="mdi mdi-fax txt-default mr-r-4"></span>  27 23 46 94 32</a><br>
+						<a><span class="mdi mdi-phone txt-default mr-r-4"></span> 27 23 50 33 72 <strong>||</strong> 27 23 41 22 35</a><br>
+						<a><span class="mdi mdi-phone txt-default mr-r-4"></span> 05 56 24 67 18 <strong>||</strong> 07 07 71 25 83</a>
+					</p>
+
+				</div>
+				
+				<div class="col-lg-3 col-md-6">
+					<h3 class="title mini f-1 bold-n">Location</h3>
+					<p>
+						Carrefour Anador à 100 m de la<br>
+						Pharmacie Anador - Maroc,<br>
+						Yopougon - 21 BP 4260 Abidjan 21
+						<br>Abidjan - Côte d’Ivoire
+					</p>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<h3 class="title mini f-1 bold-n">Follow</h3>
+					<div>
+						<a href="http://ckavart.com/" target="_blank" class="sq40 fs14 mr-r-4 rd iconbox btn-dark bdr-1 bdr-op-1"><i class="fab fa-facebook-f"></i></a>
+						<a href="http://ckavart.com/" target="_blank" class="sq40 fs14 mr-r-4 rd iconbox btn-dark bdr-1 bdr-op-1"><i class="fab fa-twitter"></i></a>
+						<a href="http://ckavart.com/" target="_blank" class="sq40 fs14 mr-r-4 rd iconbox btn-dark bdr-1 bdr-op-1"><i class="fab fa-google"></i></a>
+						<a href="http://ckavart.com/" target="_blank" class="sq40 fs14 mr-r-4 rd iconbox btn-dark bdr-1 bdr-op-1"><i class="fab fa-tumblr"></i></a>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 align-r" data-ckav-sm="align-c">
+					<h3 class="title mini f-1 bold-n">Copyright</h3>
+					<a href="#" target="_blank" class="f-2">Qbix - HTML Responsive Multi-Purpose Template</a> &copy; <script>document.write(new Date().getFullYear());</script>
+					<div class="align-r" data-ckav-sm="align-c">
+						<a href="#" class="f-2">Privacy policy</a>
+						<span class="mr-lr-4">|</span>
+						<a href="#" class="f-2">Terms & conditions</a>
+					</div>	
+				</div>
+
+			</div>
+			
+		</div>
+	</footer>
+	<!-- ************** END : FOOTER SECTION 10 **************  -->
+
+	<!--
+	************************************************************
+	* POPUP 01
+	************************************************************ -->
+	
+	<!-- form : "mfp-hide" Add this class before using -->
+	<div id="popup-content" class="white-popup-block popup-content mfp-hide">
+		<div class="pop-header align-c pd-b-0" data-ckav-sm="pd-20">
+			<p class="sq90 inline-flex flex-cc fs80 mr-0 txt-default"><i class="pe-7s-mail"></i></p>
+			<h2 class="title mr-0" data-ckav-sm="small">DROP US A LINE</h2>
+		</div>
+		<div class="pop-body" data-ckav-sm="pd-20">
+			
+			<div class="form-block">
+				<form action="form-data/formdata.php" class="form-widget">
+					<div class="field-wrp">
+						<input type="hidden" name="to" value="c.kav.art@gmail.com">
+						<div class="form-group">
+							<input class="form-control" data-label="Name" required data-msg="Please enter name." type="text" name="name" placeholder="Enter your name">
+						</div>
+						<div class="form-group">
+							<input class="form-control" data-label="Email" required data-msg="Please enter email." type="email" name="email" placeholder="Enter your email">
+						</div>
+						<div class="form-group">
+							<input class="form-control" required data-label="Phone" data-msg="Please phone number." type="text" name="phone" placeholder="Enter your phone number">
+						</div>
+						<div class="form-group">
+							<input class="form-control" data-label="Subject" required data-msg="Please enter subject." type="text" name="subject" placeholder="Enter subject">
+						</div>
+						<div class="form-group">
+							<input class="form-control datetime-pick" data-label="Date" required data-msg="Please enter date." type="text" name="subject" placeholder="Enter Date">
+						</div>
+						
+						<div class="form-group">
+							<textarea class="form-control" data-label="Message" required data-msg="Please enter your message." name="message" placeholder="Add your message" cols="30" rows="10"></textarea>
+						</div>
+					</div>
+					<button type="submit" class="btn solid btn-default block"><i class="fa fa-envelope-o"></i> SUBMIT</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- ************** END : POPUP 01 **************  -->
+	
+	<!-- GOOGLE FONTS -->
+	<script>
+	/* Use fonts with class name in sequence => f-1, f-2, f-3 .... */
+	var fgroup = [
+		'Playfair Display:400,400i,700,700i,900,900i',
+		'Open Sans:300,300i,400,400i,600,600i,700,700i,800,800i',
+		'Satisfy'
+	];
+	</script>
+
+</div>
+<!-- ************** END : MAIN WRAPPER #PAGE **************  -->
+
+<script src="assets/js/webfonts.js"></script>
+
+<script src="assets/lib/jquery/jquery-3.3.1.min.js"></script>
+<script src="assets/lib/jquery/jquery-migrate-3.0.0.min.js"></script>
+<script src="assets/lib/jquery/popper.min.js"></script>
+<script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/lib/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script>
+<script src="assets/lib/jQuery-viewport-checker/jquery.viewportchecker.min.js"></script>
+<script src="assets/lib/Swiper/js/swiper.min.js"></script>
+<script src="assets/lib/owl-carousel/owl.carousel.min.js"></script>
+<script src="assets/lib/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+<script src="assets/lib/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="assets/lib/isotope/isotope.pkgd.min.js"></script>
+<script src="assets/lib/isotope/packery-mode.pkgd.min.js"></script>
+<script src="assets/lib/jQuery-Countdown/jquery-countdown.js"></script>
+
+<script src="assets/lib/sweetalert/sweetalert2.min.js"></script>
+<script src="assets/lib/jquery-validation/jquery.validate.min.js"></script>
+<script src="assets/lib/youtubebackground/jquery.youtubebackground.js"></script>
+<script src="assets/lib/Vide/jquery.vide.min.js"></script>
+<script src="assets/lib/vegas/vegas.min.js"></script>
+<script src="assets/lib/countUp/countUp.js"></script>
+<script src="assets/lib/jarallax-master/jarallax.min.js"></script>
+<script src="assets/js/enquire.min.js"></script>
+<script src="assets/js/main.js"></script>
+
 </body>
 </html>
