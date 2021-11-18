@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ArticlesComponent } from './articles/articles.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { TagsComponent } from './tags/tags.component';
+import { BlogRoutingModule } from './blog-routing.module';
 
 
 
@@ -13,7 +14,8 @@ import { TagsComponent } from './tags/tags.component';
     TagsComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    BlogRoutingModule
   ]
 })
 export class BlogModule { }

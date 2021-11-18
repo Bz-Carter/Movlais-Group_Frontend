@@ -29,7 +29,31 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/webfonts.js",
+              "src/assets/lib/jquery/jquery-3.3.1.min.js",
+              "src/assets/lib/jquery/jquery-migrate-3.0.0.min.js",
+              "src/assets/lib/jquery/popper.min.js",
+              "src/assets/lib/bootstrap/js/bootstrap.min.js",
+              "src/assets/lib/jquery-smooth-scroll/jquery.smooth-scroll.min.js",
+              "src/assets/lib/jQuery-viewport-checker/jquery.viewportchecker.min.js",
+              "src/assets/lib/Swiper/js/swiper.min.js",
+              "src/assets/lib/owl-carousel/owl.carousel.min.js",
+              "src/assets/lib/Magnific-Popup/jquery.magnific-popup.min.js",
+              "src/assets/lib/isotope/imagesloaded.pkgd.min.js",
+              "src/assets/lib/isotope/isotope.pkgd.min.js",
+              "src/assets/lib/isotope/packery-mode.pkgd.min.js",
+              "src/assets/lib/jQuery-Countdown/jquery-countdown.js",
+              "src/assets/lib/sweetalert/sweetalert2.min.js",
+              "src/assets/lib/jquery-validation/jquery.validate.min.js",
+              "src/assets/lib/youtubebackground/jquery.youtubebackground.js",
+              "src/assets/lib/Vide/jquery.vide.min.js",
+              "src/assets/lib/vegas/vegas.min.js",
+              "src/assets/lib/countUp/countUp.js",
+              "src/assets/lib/jarallax-master/jarallax.min.js",
+              "src/assets/js/enquire.min.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
