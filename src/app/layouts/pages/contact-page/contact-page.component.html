@@ -1,1 +1,148 @@
-<p>contact-page works!</p>
+<!--
+	************************************************************
+	* PAGE HEADER 02
+	************************************************************ -->
+	<header class="pos-rel pd-tb-large flex-cc min-vh-h50" data-ckav-sm="pd-tb-medium">
+		<div class="container typo-light pos-rel z2 pd-b-1">
+
+			<div class="row align-items-center">
+				<div class="col-md-6">
+					<div class="content" data-ckav-sm="mr-0">
+						<h1 class="title xlarge f-1" data-ckav-sm="medium">Contact us</h1>
+						<p class="title-sub small" data-ckav-sm="small">Lorem ipsum dolor sitamet consectetur adipisicing elit quisquam ipsum nostrum beatae est vero</p>
+					</div>
+				</div>
+
+				<div class="col-md-6 align-r">
+					<div class="fs14 pd-tb-5 pd-lr-tiny inline-block">
+						<a href="#" class="txt-white">Accueil</a>
+						<b class="mr-lr-5"> / </b>
+						<a href="#" class="txt-white">Contact</a>	
+					</div>
+				</div>				
+			</div>
+		</div>
+
+		<!--=================================
+		= BACKGROUND HOLDER
+		==================================-->
+		<div class="bg-holder full-wh z1">
+			
+			<!-- OVERLAY -->
+			<b data-bgholder="overlay" class="full-wh z4" data-gradient="y" data-g-colors="rgba(0, 0, 0, 0.2)|rgba(0, 0, 0, 1)"></b>
+			
+			<!-- PARALLAX IMAGE -->
+			<div class="jarallax full-wh bg-cover bg-cc z2" data-jparallax="y" data-speed="0.2" data-bg="assets/images/bg-pageheader-01.jpg"></div>
+			
+			<!-- BACKGROUND IMAGE -->
+			<b data-bgholder="bg-img" class="full-wh bg-cover bg-cc z1"></b>
+		</div>
+		<!-- ======= END : BACKGROUND HOLDER =======  -->
+
+	</header>
+	<!-- ************** END : PAGE HEADER 01 **************  -->
+	
+	<!--
+	************************************************************
+	* CONTACT SECTION 01
+	************************************************************ -->
+	<section id="contact01" class="pos-rel bg-white pd-0" data-ckav-sm="align-c">
+		<div class="container typo-light">
+
+            <!--=================================
+            = CONTACT
+            ==================================-->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="info-obj pd-60 img-t g20 mini align-c" data-ckav-sm="pd-30">
+                        <div class="img txt-default"><span class="iconwrp"><i class="mdi mdi-phone"></i></span></div>
+                        <div class="info">
+                            <h3 class="fs16 f-1 bold-n txt-dark">Phone</h3>
+                            <h4 class="fs18 f-2 txt-dark">+1234-567-890</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="info-obj pd-60 img-t g20 mini align-c" data-ckav-sm="pd-30">
+                        <div class="img txt-default"><span class="iconwrp"><i class="mdi mdi-map-marker"></i></span></div>
+                        <div class="info">
+                            <h3 class="fs16 f-1 bold-n txt-dark">Location</h3>
+                            <h4 class="fs18 f-2 txt-dark">PO Box 16122,<br>Collins Street West,<br>Victoria 8007, Australia</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="info-obj pd-60 img-t g20 mini align-c" data-ckav-sm="pd-30">
+                        <div class="img txt-default"><span class="iconwrp"><i class="mdi mdi-email"></i></span></div>
+                        <div class="info">
+                            <h3 class="fs16 f-1 bold-n txt-dark">Email</h3>
+                            <h4 class="fs18 f-2 txt-dark">c.kav.art@gmail.com</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ======= END : CONTACT =======  -->
+        
+        </div>
+
+        <div class="container-fluid bg-gray">
+
+            <!--=================================
+            = CONTACT
+            ==================================-->
+            <div class="row">
+                <div class="pd-tb-medium col-lg-6 flex-cc" data-ckav-sm="pd-tb-medium">
+                    <div class="w40" data-ckav-sm="w100">
+                        <!-- TEXT -->
+                        <div class="mr-b-60 align-l" data-ckav-sm="mr-b-30 align-c">
+                            <h1 class="title small f-1 bold-4 txt-upper mr-b-30" data-ckav-sm="large mr-b-20">Get in touch</h1>
+                        </div>
+                        <!-- / TEXT -->
+    
+                        <form action="form-data/formdata.php" class="form-widget align-l" novalidate="novalidate" data-ckav-sm="align-c">
+                            <div class="field-wrp mr-b-40">
+                                <input type="hidden" name="to" value="c.kav.art@gmail.com">
+    
+                                <div class="row gt10">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input class="form-control bb" data-label="Name" required="" data-msg="Please enter name." type="text" name="name" placeholder="Enter your name" aria-required="true">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input class="form-control bb" data-label="Email" required="" data-msg="Please enter email." type="email" name="email" placeholder="Enter your email" aria-required="true">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <input class="form-control bb" required="" data-label="Phone" data-msg="Please phone number." type="text" name="phone" placeholder="Enter your phone number" aria-required="true">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control bb" data-label="Message" required="" data-msg="Please enter your message." name="message" placeholder="Add your message" cols="30" rows="5" aria-required="true"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn solid btn-dark f-1 txt-upper bold-2 rd-0 mr-auto"><i class="fa fa-envelope-o"></i> Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 flex-cl" data-ckav-sm="block">
+                    
+                    <!-- GOOGLE MAP -->
+                    <div class="full-wh" data-ckav-sm="pos-rel min-px-h400">
+                        <iframe class="w100 h100" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d43443.67749224079!2d150.9519442065611!3d-33.88737955531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1542718441531" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <!-- / GOOGLE MAP -->
+                </div>
+            </div>
+            <!-- ======= END : CONTACT =======  -->
+
+        </div>
+        
+	</section>
+    <!-- ************** END : CONTACT SECTION 01 **************  -->

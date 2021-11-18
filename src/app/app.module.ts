@@ -8,6 +8,8 @@ import { AboutPageComponent } from './layouts/pages/about-page/about-page.compon
 import { ContactPageComponent } from './layouts/pages/contact-page/contact-page.component';
 import { HeaderComponent } from './layouts/header/header.component';
 import { FooterComponent } from './layouts/footer/footer.component';
+import { ServicesPageComponent } from './layouts/pages/services-page/services-page.component';
+import { ErrorPageComponent } from './layouts/pages/error-page/error-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FooterComponent } from './layouts/footer/footer.component';
     AboutPageComponent,
     ContactPageComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ServicesPageComponent,
+    ErrorPageComponent,
   ],
   imports: [
     BrowserModule,
