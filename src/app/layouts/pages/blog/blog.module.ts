@@ -4,6 +4,8 @@ import { ArticlesComponent } from './articles/articles.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { TagsComponent } from './tags/tags.component';
 import { BlogRoutingModule } from './blog-routing.module';
+import { BlogComponent } from './blog.component';
+import { BlogSingleComponent } from './blog-single/blog-single.component';
 
 
 
@@ -11,7 +13,9 @@ import { BlogRoutingModule } from './blog-routing.module';
   declarations: [
     ArticlesComponent,
     CategoriesComponent,
-    TagsComponent
+    TagsComponent,
+    BlogComponent,
+    BlogSingleComponent,
   ],
   imports: [
     CommonModule,
